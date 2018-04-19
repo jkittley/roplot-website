@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/roplot.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/d3v5.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/fontawesome-all.min.js" defer></script>
+    <title>Roplot - The rotating drawing robot which will make yuor head spin.</title>
+</head>
+
+<body>
+    <div class="top-logo">
+        <img src="img/logo.png" />
+    </div>
+
+    <!-- Slide: Home -->
+    <div class="slide slide-home align-middle">
+        <div id="roplotter" class="m-auto"></div>
+    </div>
+
+    <!-- Slide: Progress Report -->
+    <div class="slide slide-inprogress">
+        <div class="container text-center">
+            <div class="alert alert-primary lead" role="alert">
+                <i class="fas fa-exclamation-triangle"></i> 
+                This project is a work in progress and is not yet complete.   
+                <i class="fas fa-exclamation-triangle"></i>     
+            </div>
+            <p class="lead"> So far we have a working prototype of the robot, a visualisation, half a mobile application and a concept for the programming language. If you are interested in this project and want to contribute please do. We are very freindly and everyone is welcome regardless of skills or experience. So drop me and email: <a href="mailto:jacob@kittley.com">jacob@kittley.com</a>.</p>
+        </div>
+    </div>
+
+    <!-- Slide: About -->
+    <div class="slide slide-app">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"><i class="fab fa-app-store fa-10x"></i></div>
+                <div class="col-10">
+                    <h1>Control</h1>
+                    <p class="lead">The plan is to make available a smartphone, tablet and personal computer application. Developement of a cross platform application is well underway and we hope to release a version really soon.</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <i class="fab fa-github"></i> Visualiser
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <i class="fab fa-github"></i> Smartphone / Tablet App
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <i class="fab fa-github"></i> Roplot Language
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-2"><i class="fas fa-microchip fa-10x"></i></div>
+                <div class="col-10">
+                    <h1>Hardware</h1>
+                    <p class="lead">Currently we have only one version of the plotter built, but there is a mark II on the way. The link below will take you to a repository with all the files and instructions you will need to build your own plotter.</p>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#">
+                                    <i class="fab fa-github"></i> Mark I
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide: Open -->
+    <div class="slide slide-open">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 v-line">
+                    <div class="text-center p-4">
+                        <h1 class="display-4"><i class="fas fa-code" data-fa-transform="shrink-4"></i> Open Software</h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center p-4">
+                        <h1 class="display-4"><i class="fas fa-microchip" data-fa-transform="shrink-4"></i> Open Hardware</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide: Tutorials -->
+    <div class="slide slide-tutorials">
+        <div class="container text-center">
+            
+        </div>
+    </div>
+
+    <!-- Slide: Footer -->
+    <div class="slide slide-footer text-center">
+        &copy; 2018 Kittley
+    </div>
+
+
+    <script src="js/roplot.js"></script>
+    <script>
+
+        var d = Math.min($('.slide-home').width(), $('.slide-home').height());
+        
+        $('.slide-home').css('padding-top', d*.1);
+        $('#roplotter').css('width', d*.8).css('height', d*.8);
+
+        var settings = {
+            "physical": {
+                "boomRadius": 500,
+                "boomWidth": 20,
+                "boomColor": "gray",
+                "drawStart": 100,
+                "drawEnd": 450,
+                "carWidth": 40,
+                "carHeight": 40,
+            }
+        };
+
+        $('#roplotter').roplot(settings)
+            .drawPath('patha', [
+                { "x": 450, "y": 0 },
+                { "x": 550, "y": 350 },
+                { "x": 900, "y": 450 },
+                { "x": 550, "y": 550 },
+                { "x": 450, "y": 900 },
+                { "x": 350, "y": 550 },
+                { "x": 0, "y": 450 },
+                { "x": 350, "y": 350 },
+                { "x": 450, "y": 0 },
+            ], 5, "green");
+        
+        setInterval(function() { 
+            $('#roplotter').boomTo(Math.random() * 360);
+            $('#roplotter').carTo(100 + Math.random() * 350);
+        }, 2000);
+        
+        // $( window ).resize(function() {
+        //   $( "#roplotter" ).roplot(settings);
+        // });
+
+
+    </script>
+
+</body>
+
+</html>
