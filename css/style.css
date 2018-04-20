@@ -22,8 +22,8 @@ body {
 }
 
 .slide-home {
-    height: 100vh;
-    background-color: dodgerblue;
+    height: 80vh;
+    background-color: #0074D9;
 }
 
 .slide-home img {
@@ -46,6 +46,12 @@ body {
 .slide-app {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.slide-docs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DDDDDD;
 }
 
 .slide-inprogress {

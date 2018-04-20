@@ -34,42 +34,46 @@
         </div>
     </div>
 
+    <!-- Slide Docs -->
+    <div class="slide slide-docs">
+        <div class="container text-center">
+            <a href="http://roplot.readthedocs.io/" class="btn btn-lg btn-secondary"><i class="fas fa-book"></i> Documentation</a>
+        </div>
+    </div>
+
     <!-- Slide: About -->
     <div class="slide slide-app">
         <div class="container">
             <div class="row">
-                <div class="col-2"><i class="fab fa-app-store fa-10x"></i></div>
-                <div class="col-10">
-                    <h1>Control</h1>
+           
+                <div class="col-md-6">
+                    <h1><i class="fas fa-save"></i> Software</h1>
                     <p class="lead">The plan is to make available a smartphone, tablet and personal computer application. Developement of a cross platform application is well underway and we hope to release a version really soon.</p>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <a href="#">
+                            <a href="https://github.com/jkittley/roplot-visualization">
                                 <i class="fab fa-github"></i> Visualiser
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a href="#">
+                            <a href="https://github.com/jkittley/roplot-app">
                                 <i class="fab fa-github"></i> Smartphone / Tablet App
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a href="#">
+                            <a href="https://github.com/jkittley/rolang">
                                 <i class="fab fa-github"></i> Roplot Language
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-2"><i class="fas fa-microchip fa-10x"></i></div>
-                <div class="col-10">
-                    <h1>Hardware</h1>
+           
+                <div class="col-md-6">
+                    <h1><i class="fas fa-microchip"></i> Hardware</h1>
                     <p class="lead">Currently we have only one version of the plotter built, but there is a mark II on the way. The link below will take you to a repository with all the files and instructions you will need to build your own plotter.</p>
                     <ul class="list-group">
                             <li class="list-group-item">
-                                <a href="#">
+                                <a href="https://github.com/jkittley/roplot-printers">
                                     <i class="fab fa-github"></i> Mark I
                                 </a>
                             </li>
@@ -85,12 +89,12 @@
             <div class="row">
                 <div class="col-md-6 v-line">
                     <div class="text-center p-4">
-                        <h1 class="display-4"><i class="fas fa-code" data-fa-transform="shrink-4"></i> Open Software</h1>
+                        <h1><i class="fas fa-code" data-fa-transform="shrink-4"></i> Open Software</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-center p-4">
-                        <h1 class="display-4"><i class="fas fa-microchip" data-fa-transform="shrink-4"></i> Open Hardware</h1>
+                        <h1><i class="fas fa-microchip" data-fa-transform="shrink-4"></i> Open Hardware</h1>
                     </div>
                 </div>
             </div>
@@ -118,43 +122,34 @@
         $('.slide-home').css('padding-top', d*.1);
         $('#roplotter').css('width', d*.8).css('height', d*.8);
 
-        var settings = {
-            "physical": {
-                "boomRadius": 500,
-                "boomWidth": 20,
-                "boomColor": "gray",
-                "drawStart": 100,
-                "drawEnd": 450,
-                "carWidth": 40,
-                "carHeight": 40,
+        // Initialise the plotter visualisation
+        var roplotter = $('#roplotter').roplot()
+            .on('click', function(e, details) { console.log(details); });
+        
+        // Draw a petal
+        roplotter.run("PD:1");
+        var config = roplotter.getConfig();
+        var i=0;
+        var k=4;
+        var d=true;
+        var intervalA = setInterval(function() {
+            roplotter.run("RC");
+            if (d) {
+                roplotter.run(k+"*CO");
+            } else {
+                roplotter.run(k+"*CI");      
+            } 
+            if (i>360) { 
+                roplotter.run("PD:0, PU:1");
+                k = 6; 
             }
-        };
-
-        $('#roplotter').roplot(settings)
-            .drawPath('patha', [
-                { "x": 450, "y": 0 },
-                { "x": 550, "y": 350 },
-                { "x": 900, "y": 450 },
-                { "x": 550, "y": 550 },
-                { "x": 450, "y": 900 },
-                { "x": 350, "y": 550 },
-                { "x": 0, "y": 450 },
-                { "x": 350, "y": 350 },
-                { "x": 450, "y": 0 },
-            ], 5, "green");
-        
-        setInterval(function() { 
-            $('#roplotter').boomTo(Math.random() * 360);
-            $('#roplotter').carTo(100 + Math.random() * 350);
-        }, 2000);
-        
-        // $( window ).resize(function() {
-        //   $( "#roplotter" ).roplot(settings);
-        // });
-
-
+            if (i > 0 && Math.ceil(i / config.physical.boomStep) % 40 == 0) d=!d;
+            i += config.physical.boomStep;
+            if (i>720) {
+                clearInterval(intervalA);
+            }
+        }, 30);
+    
     </script>
-
 </body>
-
 </html>
