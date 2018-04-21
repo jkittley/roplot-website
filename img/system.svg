@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3508 2481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.958333,0,0,0.916667,27.5591,55.1181)">
+        <rect x="94.488" y="377.953" width="1133.86" height="566.929" style="fill:none;stroke:rgb(192,0,0);stroke-width:4.44px;stroke-dasharray:22.22,22.22,0,0;"/>
+    </g>
+    <g transform="matrix(0.458333,0,0,-0.416667,74.8031,1456.69)">
+        <rect x="94.488" y="377.953" width="1133.86" height="566.929" style="fill:none;stroke:rgb(192,0,139);stroke-width:9.51px;stroke-dasharray:47.57,47.57,0,0;"/>
+    </g>
+    <g transform="matrix(1.08333,0,0,0.75,-125.984,118.11)">
+        <rect x="944.882" y="283.465" width="283.465" height="94.488" style="fill:rgb(192,0,0);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-566.929,-94.4882)">
+        <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        <g transform="matrix(1,0,0,1,-58.8976,-362.008)">
+            <text x="870.759px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Input Image</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-566.929,-94.4882)">
+        <g transform="matrix(1,0,0,1,0,283.465)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-58.8976,-78.5438)">
+            <text x="949.995px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">SVG</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-566.929,-94.4882)">
+        <g transform="matrix(1,0,0,1,0,566.929)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-58.8976,204.921)">
+            <text x="954.646px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">RA<tspan x="1020.39px " y="710.613px ">T</tspan></text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-566.929,-94.4882)">
+        <g transform="matrix(1,0,0,1,566.929,283.465)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,566.929,283.465)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,508.032,-78.5438)">
+            <text x="923.567px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Rolang</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-566.929,-94.4882)">
+        <g transform="matrix(1,0,0,1,-1.13687e-13,944.882)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-1.13687e-13,944.882)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-58.8976,582.873)">
+            <text x="894.868px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">V<tspan x="927.315px 938.423px " y="710.613px 710.613px ">is</tspan>ualiser</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-47.2441,-94.4882)">
+        <g transform="matrix(1,0,0,1,614.173,944.882)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1.5,614.173,732.283)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,553.994,533.525)">
+            <text x="845.772px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Print Manager</text>
+        </g>
+    </g>
+    <g transform="matrix(3.67394e-17,-0.6,1,6.12323e-17,-838.583,1093.7)">
+        <path d="M1192.91,1228.94L1192.91,1251.97L1133.86,1216.54L1192.91,1181.1L1192.91,1204.13L1251.97,1204.13L1251.97,1228.94L1192.91,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1.21px;"/>
+    </g>
+    <g transform="matrix(3.67394e-17,-0.6,1,6.12323e-17,-838.583,1377.17)">
+        <path d="M1192.91,1228.94L1192.91,1251.97L1133.86,1216.54L1192.91,1181.1L1192.91,1204.13L1251.97,1204.13L1251.97,1228.94L1192.91,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1.21px;"/>
+    </g>
+    <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-838.583,2185.04)">
+        <path d="M1169.29,1228.94L1169.29,1251.97L1133.86,1216.54L1169.29,1181.1L1169.29,1204.13L1251.97,1204.13L1251.97,1228.94L1169.29,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1px;"/>
+    </g>
+    <g transform="matrix(0.533572,-0.533572,0.707107,0.707107,-833.237,435.631)">
+        <path d="M1180.82,1228.94L1180.82,1251.97L1133.86,1216.54L1180.82,1181.1L1180.82,1204.13L1251.97,1204.13L1251.97,1228.94L1180.82,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1.13px;"/>
+    </g>
+    <g transform="matrix(4.95458,-3.64485e-16,0,1,-4974.64,-82.6772)">
+        <path d="M1141.01,1228.94L1141.01,1251.97L1133.86,1216.54L1141.01,1181.1L1141.01,1204.13L1251.97,1204.13L1251.97,1228.94L1141.01,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.28px;"/>
+    </g>
+    <g transform="matrix(0.997004,-0.0773514,0.0773514,0.997004,-74.1453,46.0965)">
+        <g transform="matrix(-4.73636,-1.40835,0.285015,-0.958523,6250.03,3841.71)">
+            <path d="M1141.03,1228.94L1141.03,1251.97L1133.86,1216.54L1141.03,1181.1L1141.03,1204.13L1251.97,1204.13L1251.97,1228.94L1141.03,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.28px;"/>
+        </g>
+        <g transform="matrix(0.957108,0.289731,-0.289731,0.957108,32.2319,-488.841)">
+            <text x="1161.61px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;">Send <tspan x="1269.74px 1290.58px 1313.75px " y="1169.7px 1169.7px 1169.7px ">To </tspan>Print</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-779.528,-879.742)">
+        <g transform="matrix(1,0,0,1,1346.46,832.498)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1346.46,832.498)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1287.56,470.49)">
+            <text x="851.802px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">V<tspan x="884.248px 895.357px " y="710.613px 710.613px ">ir</tspan>tual Printer</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,307.087,-496.063)">
+        <g transform="matrix(1,0,0,1.5,1370.08,1133.86)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1311.18,936.911)">
+            <text x="813.838px" y="710.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Hardware Printer</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,307.087,-496.063)">
+        <g transform="matrix(1,0,0,1.5,1370.08,1133.86)">
+            <rect x="708.661" y="236.22" width="472.441" height="188.976" style="fill:rgb(235,235,235);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1311.34,895.687)">
+            <text x="888.85px" y="710.613px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:50px;">Hardware</text>
+            <text x="899.983px" y="762.248px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Printer or</text>
+            <text x="902.754px" y="813.884px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Emulator</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-438.433,-25.0573)">
+        <text x="1143.88px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;">Printer Settings</text>
+    </g>
+    <g transform="matrix(4.95458,-3.64485e-16,0,1,-4974.64,11.811)">
+        <path d="M1141.01,1228.94L1141.01,1251.97L1133.86,1216.54L1141.01,1181.1L1141.01,1204.13L1251.97,1204.13L1251.97,1228.94L1141.01,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.28px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-457.791,69.4207)">
+        <text x="1163.18px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;">RA<tspan x="1217.97px 1242.66px 1254.24px " y="1169.7px 1169.7px 1169.7px ">T U</tspan>pdates</text>
+    </g>
+    <g transform="matrix(1.05556,0,0,1.07692,-650.919,-156.269)">
+        <rect x="661.417" y="188.976" width="1700.79" height="1228.35" style="fill:none;stroke:rgb(27,10,134);stroke-width:3.91px;stroke-dasharray:19.54,19.54,0,0;"/>
+    </g>
+    <g transform="matrix(0.916667,0,0,0.75,-366.142,-59.0551)">
+        <rect x="2125.98" y="141.732" width="283.465" height="94.488" style="fill:rgb(27,10,134);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-394.599,-226.737)">
+        <text x="2003.09px" y="324.225px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;fill:white;">APP<tspan x="2085.71px 2097.29px " y="324.225px 324.225px "> R</tspan>EPO</text>
+    </g>
+    <g transform="matrix(1,0,0,1.13814,-1056.58,13.6722)">
+        <text x="1974.96px" y="324.225px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:36.609px;fill:white;">ROLANG REPO</text>
+    </g>
+    <g transform="matrix(0.666667,0,0,0.625,-181.102,826.772)">
+        <rect x="944.882" y="283.465" width="283.465" height="94.488" style="fill:rgb(192,0,139);"/>
+    </g>
+    <g transform="matrix(1,0,0,1.13814,-1565.18,680.28)">
+        <text x="2022.76px" y="324.225px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:36.609px;fill:white;">VIS REPO</text>
+    </g>
+    <g>
+        <g transform="matrix(4.8,4.93038e-32,0,1,-3670.87,11.811)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(4.8,4.93038e-32,0,1,-3670.87,-177.189)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(-4.8,-5.8783e-16,1.22465e-16,-1,7781.1,2350.39)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,773.062,-20.9272)">
+            <text x="1129.6px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Sends RA<tspan x="1314.11px 1338.81px 1350.38px " y="1169.7px 1169.7px 1169.7px ">T P</tspan>ack</text>
+        </g>
+        <g transform="matrix(1,0,0,1,773.021,72.026)">
+            <text x="1073.99px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Indivdual RA<tspan x="1307.15px 1331.85px 1343.42px " y="1169.7px 1169.7px 1169.7px ">T U</tspan>pdates</text>
+        </g>
+        <g transform="matrix(1,0,0,1,774.751,-115.475)">
+            <text x="1101.04px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Advertisers Settings</text>
+        </g>
+    </g>
+    <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,373.411,2740.16)">
+        <g transform="matrix(4.8,4.93038e-32,0,1,-3670.87,11.811)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(4.8,4.93038e-32,0,1,-3670.87,-177.189)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(-4.8,-5.8783e-16,1.22465e-16,-1,7781.1,2350.39)">
+            <path d="M1141.24,1228.94L1141.24,1251.97L1133.86,1216.54L1141.24,1181.1L1141.24,1204.13L1251.97,1204.13L1251.97,1228.94L1141.24,1228.94Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:0.29px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,773.062,-20.9272)">
+            <text x="1129.6px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Sends RA<tspan x="1314.11px 1338.81px 1350.38px " y="1169.7px 1169.7px 1169.7px ">T P</tspan>ack</text>
+        </g>
+        <g transform="matrix(1,0,0,1,773.021,72.026)">
+            <text x="1073.99px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Indivdual RA<tspan x="1307.15px 1331.85px 1343.42px " y="1169.7px 1169.7px 1169.7px ">T U</tspan>pdates</text>
+        </g>
+        <g transform="matrix(1,0,0,1,774.751,-115.475)">
+            <text x="1101.04px" y="1169.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">Advertisers Settings</text>
+        </g>
+    </g>
+    <g transform="matrix(0.75,0,0,0.75,685.039,236.22)">
+        <rect x="2362.2" y="850.394" width="566.929" height="94.488" style="fill:rgb(0,192,15);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,565.324,599.035)">
+        <text x="1923.64px" y="324.225px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:41.667px;fill:white;">HARDW<tspan x="2079.48px 2107.28px " y="324.225px 324.225px ">AR</tspan>E REPO</text>
+    </g>
+    <path d="M1251.97,165.354L1771.65,165.354L1771.65,944.882L2881.89,944.882L2881.89,1299.21L1251.97,1299.21L1251.97,165.354Z" style="fill:none;stroke:rgb(0,192,15);stroke-width:4.17px;stroke-dasharray:20.83,20.83,0,0;"/>
+</svg>
